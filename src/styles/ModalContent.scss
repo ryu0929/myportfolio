@@ -1,0 +1,42 @@
+@import "_mediaquery";
+@import "_variables";
+
+.worksModal {
+    &__titleArea {
+        h3 {
+            font-weight: bold;
+            font-size: 22px;
+            letter-spacing: 0.1em;
+        }
+        span {
+            display: block;
+            font-size: 11px;
+            letter-spacing: 0.1em;
+            margin-top: 8px;
+        }
+    }
+    &__picArea {
+        margin-top: 30px;
+        .wrap {
+            @include sp {
+                overflow-x: scroll;
+            }
+            &:not(:first-of-type) {
+                margin-top: 30px;
+            }
+        }
+        .img {
+            @include sp {
+                width: 180%;
+            }
+        }
+    }
+    &__explaArea {
+        margin-top: 30px;
+        p {
+            font-size: 12px;
+            line-height: 1.6;
+            letter-spacing: 0.1em;
+        }
+    }
+}

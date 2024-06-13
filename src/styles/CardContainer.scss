@@ -1,0 +1,13 @@
+@import "_mediaquery";
+@import "_variables";
+
+.cardContainer {
+    &__inner {
+
+    }
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

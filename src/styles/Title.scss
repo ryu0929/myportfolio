@@ -1,0 +1,32 @@
+@import "_mediaquery";
+@import "_variables";
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+.title {
+    color: #F2F2F2;
+    position: sticky;
+    top: 80px;
+    align-self: baseline;
+    writing-mode: vertical-rl;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    @include pc {
+        width: 144px;
+        top: 170px;
+    }
+    div {
+        overflow: hidden;
+        span {
+            display: block;
+            font-family: 'Italiana', serif;
+            font-size: 28px;
+            letter-spacing: 0.2em;
+            line-height: 1.0;
+            @include pc {
+                font-size: 56px;
+            }
+        }
+    }
+    }
