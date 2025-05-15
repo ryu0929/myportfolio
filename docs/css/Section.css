@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+.section {
+  margin-top: 60px;
+}
+@media only screen and (min-width: 768px) {
+  .section {
+    margin-top: 100px;
+  }
+}
+.section__inner {
+  display: flex;
+  padding-bottom: 60px;
+}
+.section--works .section__content {
+  width: calc(100% - 60px);
+  margin-left: auto;
+}
+@media only screen and (min-width: 768px) {
+  .section--works .section__content {
+    width: calc(100% - 144px);
+  }
+}
+.section--about .section__content {
+  width: calc(100% - 80px);
+  margin-right: auto;
+}
+@media only screen and (min-width: 768px) {
+  .section--about .section__content {
+    width: calc(100% - 144px);
+  }
+}
+.section--about .section__content p {
+  font-size: 12px;
+  line-height: 1.8;
+  letter-spacing: 0.025em;
+}/*# sourceMappingURL=Section.css.map */

@@ -23,6 +23,9 @@ const CardContainer = () => {
     }
 
     console.log(showModal);
+    
+    //配列を逆にする
+    // const reversedArr = [...contentData].reverse()
 
     const ListItems = contentData.map((data, index) => {
         return (

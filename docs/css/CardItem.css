@@ -1,0 +1,48 @@
+.cardItem {
+  width: calc(50% - 1px);
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
+  .cardItem {
+    width: calc(33.3333333333% - 1px);
+  }
+}
+.cardItem__image div {
+  overflow: hidden;
+  position: relative;
+}
+.cardItem__image div::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent 50%);
+}
+.cardItem__image div:hover {
+  cursor: pointer;
+}
+.cardItem__image div:hover img {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+.cardItem__image div img {
+  transition: 0.8s;
+}
+.cardItem__text {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  text-align: left;
+}
+.cardItem__text h3 {
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+.cardItem__text span {
+  font-size: 11px;
+  letter-spacing: 0.05em;
+}/*# sourceMappingURL=CardItem.css.map */

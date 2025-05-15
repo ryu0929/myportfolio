@@ -1,0 +1,57 @@
+@media only screen and (min-width: 768px) {
+  .profile__inner {
+    display: flex;
+    justify-content: space-between;
+    width: 64%;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+}
+.profile__picArea {
+  width: 44.4%;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .profile__picArea {
+    width: 21.2%;
+    margin: 0;
+  }
+}
+.profile__textArea {
+  margin-top: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .profile__textArea {
+    width: 72.2%;
+  }
+}
+.profile__textArea .name {
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .profile__textArea .name {
+    font-size: 32px;
+    text-align: left;
+  }
+}
+.profile__textArea .role {
+  font-size: 12px;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .profile__textArea .role {
+    font-size: 16px !important;
+    text-align: left;
+  }
+}
+.profile__textArea .expla {
+  letter-spacing: 0.05em !important;
+  margin-top: 14px;
+}
+@media only screen and (min-width: 768px) {
+  .profile__textArea .expla {
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=Profile.css.map */

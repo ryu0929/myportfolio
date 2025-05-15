@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Forum&family=Poppins:wght@400;500;600&display=swap");
+body {
+  font-family: "Poppins", "Hiragino Kaku Gothic ProN", "游ゴシック体", "Yu Gothic", YuGothic, "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, sans-serif;
+  line-height: 1.4;
+  color: #fff;
+  overflow-x: hidden;
+  background-color: #5D5D5D;
+}
+
+.courier {
+  font-family: "Courier Prime", monospace;
+}
+
+.forum {
+  font-family: "Forum", cursive;
+}
+
+.sp-invisible {
+  display: block;
+}
+@media only screen and (max-width: 767px) {
+  .sp-invisible {
+    display: none !important;
+  }
+}
+
+.sp-visible {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .sp-visible {
+    display: none !important;
+  }
+}/*# sourceMappingURL=common.css.map */

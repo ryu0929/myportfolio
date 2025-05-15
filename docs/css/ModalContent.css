@@ -1,0 +1,35 @@
+.worksModal__titleArea h3 {
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 0.1em;
+}
+.worksModal__titleArea span {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  margin-top: 8px;
+}
+.worksModal__picArea {
+  margin-top: 30px;
+}
+@media only screen and (max-width: 767px) {
+  .worksModal__picArea .wrap {
+    overflow-x: scroll;
+  }
+}
+.worksModal__picArea .wrap:not(:first-of-type) {
+  margin-top: 30px;
+}
+@media only screen and (max-width: 767px) {
+  .worksModal__picArea .img {
+    width: 180%;
+  }
+}
+.worksModal__explaArea {
+  margin-top: 30px;
+}
+.worksModal__explaArea p {
+  font-size: 12px;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+}/*# sourceMappingURL=ModalContent.css.map */

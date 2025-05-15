@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+.title {
+  color: #F2F2F2;
+  position: sticky;
+  top: 80px;
+  align-self: baseline;
+  writing-mode: vertical-rl;
+  width: 60px;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (min-width: 768px) {
+  .title {
+    width: 144px;
+    top: 170px;
+  }
+}
+.title div {
+  overflow: hidden;
+}
+.title div span {
+  display: block;
+  font-family: "Italiana", serif;
+  font-size: 28px;
+  letter-spacing: 0.2em;
+  line-height: 1;
+}
+@media only screen and (min-width: 768px) {
+  .title div span {
+    font-size: 56px;
+  }
+}/*# sourceMappingURL=Title.css.map */
