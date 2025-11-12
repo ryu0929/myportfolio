@@ -25,11 +25,11 @@ const CardContainer = () => {
     console.log(showModal);
     
     //配列を逆にする
-    // const reversedArr = [...contentData].reverse()
+    const reversedData = contentData.slice().reverse();
 
-    const ListItems = contentData.map((data, index) => {
+    const ListItems = reversedData.map((data, index) => {
         return (
-            <CardItem {...data} key={index} onClick={() => openModal(`modal-${index+1}`)}/>
+            <CardItem {...data} key={index} onClick={() => openModal(data.id)}/>
         )
     })
 
